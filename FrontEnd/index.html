@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Groot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+    <h3>Movies available to watch</h3>
+    <p id="available-movies"></p>
+</header>
+<hr>
+<body>
+    <div class="container">
+        <h1>Welcome to the Groot Cinema</h1>
+        <h3>Select a movie!</h3>
+        <input type="text" id="movie-id-input" placeholder="Enter Movie Name">
+        <button id="search-btn">Search</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Movies</th>
+                    <th>Year</th>
+                    <th>Time</th>
+                    <th>Rating</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <!-- Results will be injected here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
